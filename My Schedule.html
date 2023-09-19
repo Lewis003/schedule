@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Schedule</title>
+<style>
+    .left {
+      text-align: left;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .timetable {
+      animation: fadeIn 5s;
+    }
+  </style>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+   <button onclick="toggleDarkMode()">
+  <a>Click me</a>
+</button>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <h1 class="animate__animated animate__bounce">Just READ</h1>
+  </head>
+  <body>
+   
+    <script>
+      var images = [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbT16nuKqYLkKdNdhzdJ3mJs_MXSp-Ozm0w&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0vyySqhuyBVp9IHVJ8AX16wQgmnWmIQFRug&usqp=CAU",
+        "https://images.unsplash.com/photo-1677959587685-6b43720d3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReL_kSGg4Ux5ZiwK-mIRe6_L-Ft8GxRaaT1Q&usqp=CAU",
+        "https://cdn.stocksnap.io/img-thumbs/280h/dog-sunglasses_ZVCXJVXL75.jpg"
+      ];
+      var imageIndex = 0;
+
+      function toggleDarkMode() {
+        var body = document.querySelector("body");
+        body.classList.toggle("dark-mode");
+        imageIndex = (imageIndex + 1) % images.length;
+        body.style.backgroundImage = "url('" + images[imageIndex] + "')";
+      }
+    </script>
+    <ul>
+    <li><a href="#">Lewis Revision Timetable</a></li>
+  </ul>
+   <div class="left">
+    <header>
+      <h1>Lewis Schedule</h1>
+
+    </header>
+    <main>
+      <section>
+        <h2>Monday</h2>
+        <ul>
+          <li>6:00 AM - Wake up and get ready for the day</li>
+          <li>6:30 AM - Exercise or yoga session</li>
+          <li>7:30 AM - Breakfast</li>
+          <li>8:00 AM - Commute to work/school or start working from home</li>
+          <li>11:00 AM - Online Mobile Computing class</li>
+          <li>2:00 PM - Physical VB.net class</li>
+          <li>5:00 PM - Finish class and commute back home</li>
+          <li>6:00 PM - Dinner</li>
+          <li>7:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+          <li>9:30 PM - Wind down (shower, prepare for bed)</li>
+          <li>10:00 PM - Bedtime</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Tuesday</h2>
+        <ul>
+          <li>6:00 AM - Wake up and get ready for the day</li>
+          <li>6:30 AM - Exercise or yoga session</li>
+          <li>7:30 AM - Breakfast</li>
+          <li>8:00 AM - Commute to work/school or start working from home</li>
+          <li>11:00 AM - Physical OOP class</li>
+          <li>2:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+          <li>5:00 PM - Finish work/school and commute back home</li>
+          <li>6:00 PM - Dinner</li>
+          <li>7:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+          <li>9:30 PM - Wind down (shower, prepare for bed)</li>
+          <li>10:00 PM - Bedtime</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Wednesday</h2>
+        <ul>
+          <li>6:00 AM - Wake up and get ready for the day</li>
+          <li>6:30 AM - Exercise or yoga session</li>
+          <li>7:30 AM - Breakfast</li>
+          <li>8:00 AM - Commute to work/school or start working from home</li>
+          <li>11:00 AM - Online CCNA 3 class</li>
+          <li>2:00 PM - Physical Software Engineering class</li>
+          <li>5:00 PM - Finish class and commute back home</li>
+          <li>6:00 PM - Dinner</li>
+          <li>7:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+          <li>9:30 PM - Wind down (shower, prepare for bed)</li>
+          <li>10:00 PM - Bedtime</li>
+      
+    </ul>
+  </section>
+  <section>
+    <h2>Thursday</h2>
+    <ul>
+      <li>6:00 AM - Wake up and get ready for the day</li>
+      <li>6:30 AM - Exercise or yoga session</li>
+      <li>7:30 AM - Breakfast</li>
+      <li>8:00 AM - Commute to work/school or start working from home</li>
+      <li>11:00 AM - Online Object Oriented Analysis System and Design class</li>
+      <li>2:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+      <li>5:00 PM - Finish work/school and commute back home</li>
+      <li>6:00 PM - Dinner</li>
+      <li>7:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+      <li>9:30 PM - Wind down (shower, prepare for bed)</li>
+      <li>10:00 PM - Bedtime</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Friday</h2>
+    <ul>
+      <li>6:00 AM - Wake up and get ready for the day</li>
+      <li>6:30 AM - Exercise or yoga session</li>
+      <li>7:30 AM - Breakfast</li>
+      <li>8:00 AM - Commute to work/school or start working from home</li>
+      <li>11:00 AM - Physical Probability and Statistics class</li>
+      <li>2:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+      <li>5:00 PM - Finish work/school and commute back home</li>
+      <li>6:00 PM - Dinner</li>
+      <li>7:00 PM - Personal time (reading, hobbies, spending time with family/friends, etc.)</li>
+      <li>9:30 PM - Wind down (shower, prepare for bed)</li>
+      <li>10:00 PM - Bedtime</li>
+    </ul>
+    </section>
+    <a href="#">Lewis Revision Timetable</a>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8-9am</td>
+          <td>Mobile Computing (revision)</td>
+          <td>Object Oriented Programming (revision)</td>
+          <td>Software Engineering</td>
+          <td>Object Oriented Analysis & Design (revision)</td>
+          <td>Probability and Statistics</td>
+        </tr>
+        <tr>
+          <td>9-10am</td>
+          <td>Mobile Computing (revision)</td>
+          <td>Object Oriented Programming (revision)</td>
+          <td>Software Engineering</td>
+          <td>Object Oriented Analysis & Design (revision)</td>
+          <td>Probability and Statistics</td>
+        </tr>
+        <tr>
+          <td>10-11am</td>
+          <td colspan="5">Break</td>
+        </tr>
+        <tr>
+          <td>11am-12pm</td>
+          <td>Mobile Computing (revision)</td>
+          <td>Object Oriented Programming (revision)</td>
+          <td>Software Engineering</td>
+          <td>Object Oriented Analysis & Design (revision)</td>
+          <td>Probability and Statistics</td>
+        </tr>
+        <tr>
+          <td>12
+
+  
+</body>
+</main>
+
